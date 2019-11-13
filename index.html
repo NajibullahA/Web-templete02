@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
     <!-- Latest compiled and minified CSS -->
@@ -9,6 +10,7 @@
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
@@ -27,6 +29,11 @@
                         <li class=""><a> Pages</a></li>
                         <li class=""><a> Home</a></li>
                     </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
                 </div>
             </header>
             <div class="carousel-body">
@@ -77,10 +84,10 @@
                 <img src="img/1.jpg" class="about-section__img--size">
             </div>
             <div class="about-section__text">
-                <h1>A LITTEL ABOPUT US</h1>
-                <P>We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".We are a company based in
+                <p class="about-section__text--heading">A LITTEL ABOPUT US</p>
+                <P class="about-section__text--paragraph">We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".We are a company based in
                     India with motto "digitally designed India".</P><br>
-                <p>We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".</p>
+                <p class="about-section__text--paragraph"> We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".We are a company based in India with motto "digitally designed India".</p>
             </div>
         </div>
         <div class="services">
@@ -92,7 +99,7 @@
             </center>
         </div>
         <div class="development-section">
-            <div>
+            <div class="development-section--division">
                 <center>
                     <img src="img/webd.png" class="development-section__img">
                     <h2>WEB DEVELOPMENT</h2><br>
@@ -100,7 +107,7 @@
                     <button class="button1">MORE DETAILS</button>
                 </center>
             </div>
-            <div>
+            <div class="development-section--division">
                 <center>
                     <img src="img/webd.png" class="development-section__img">
                     <h2>WEB DEVELOPMENT</h2><br>
@@ -108,7 +115,7 @@
                     <button class="button1">MORE DETAILS</button>
                 </center>
             </div>
-            <div>
+            <div class="development-section--division">
                 <center>
                     <img src="img/webd.png" class="development-section__img">
                     <h2>WEB DEVELOPMENT</h2><br>
@@ -157,8 +164,7 @@
                         <p>01</p>
                     </div>
                     <div class="inner__block--name">
-                        <h5>CEO Imran Khan fsdfsdfsdf</h5>
-                        <h2>sdasdasjjkhdadhg jhgjh hgh dasd</h2>
+                        <h5>CEO Imran Khan</h5>
                     </div>
                 </div>
             </div>
@@ -213,7 +219,7 @@
             </div>
             <div class="queries-section__form">
                 <from>
-                    <input id="input" class="input" placeholder="Your Name">
+                    <input id="input" class="input" placeholder="Name">
                     <input id="input" class="input" placeholder="Phone Number">
                     <button class="button">Get a Call</button>
                 </from>
@@ -223,6 +229,7 @@
             <div class="footer-div"></div>
         </footer>
     </div>
+    <script src="App.js"></script>
 </body>
 
 </html>
